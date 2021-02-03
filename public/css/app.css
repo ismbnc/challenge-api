@@ -1,0 +1,85 @@
+html, body {
+    background-color: #fff;
+    color: #636b6f;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 200;
+    height: 100vh;
+    margin: 0;
+}
+
+.full-height {
+    height: 100vh;
+}
+
+.flex-center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.position-ref {
+    position: relative;
+}
+
+.top-right {
+    position: absolute;
+    right: 10px;
+    top: 18px;
+}
+
+.content {
+    text-align: center;
+}
+
+.title {
+    font-size: 84px;
+}
+
+.links > a {
+    color: #636b6f;
+    padding: 0 25px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.m-b-md {
+    margin-bottom: 30px;
+}
+
+.linkurl {
+    display: block;
+    margin-top: 60px;
+}
+
+.linkurl > a {
+    color: #636b6f;
+}
+
+.appbar {
+    height: 40px;
+    background: #dde4e8 !important;
+    display: block;
+}
+
+.kodornek {
+    margin: 0;
+    padding: 20px 40px;
+    background: #272b2d;
+    border-radius: 5px;
+    font-family: Source Code Pro, Menlo, monospace;
+    font-size: 13px;
+    line-height: 1.5em;
+    font-weight: 500;
+}
+
+.kodblok {
+    position: relative;
+    z-index: 2;
+    margin-left: 45%;
+    padding: 42px 0 50px;
+    color: #dde4e8;
+    background-color: aqua !important;
+}
